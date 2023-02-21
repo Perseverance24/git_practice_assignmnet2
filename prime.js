@@ -1,8 +1,11 @@
-let n = 10;
+
+let num = 7;
 let count = 0;
 
-for(let j=2;j<=Math.sqrt(n); j++){
-  if(n%j==0){
+for(let i=1; i<=num; i++)
+{
+  if(num % i == 0)
+  {
     count++;
   }
 }
