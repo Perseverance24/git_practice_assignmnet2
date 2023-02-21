@@ -1,3 +1,4 @@
+
 let num = 7;
 let count = 0;
 
@@ -9,10 +10,9 @@ for(let i=1; i<=num; i++)
   }
 }
 
-if(count == 2)
-{
-  console.log("Prime");
+if(count == 0){
+  console.log("Prime Number");
 }
- else{
-  console.log("Not Prime"); 
+else{
+  console.log("Not a Prime Number"); 
 }
