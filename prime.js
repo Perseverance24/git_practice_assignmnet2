@@ -1,18 +1,15 @@
-let num = 10;
+let n = 10;
 let count = 0;
 
-for(let i=1; i<=num; i++)
-{
-  if(num % i == 0)
-  {
-    count;
+for(let j=2;j<=Math.sqrt(n); j++){
+  if(n%j==0){
+    count++;
   }
 }
 
-if(count == 2)
-{
-  console.log("Prime");
+if(count == 0){
+  console.log("Prime Number");
 }
- else{
-  console.log("Not Prime"); 
+else{
+  console.log("Not a Prime Number"); 
 }
